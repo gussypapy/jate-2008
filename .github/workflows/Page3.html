@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #00bfa5;  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: white; 
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #a7ffeb; 
+  color: black; 
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+td, th {
+  border: none;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #b2dfdb; 
+}
+
+button {
+  font-family: Arial, sans-serif;
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: white;
+  border: 2px solid #004d40;
+  border-radius: 5px;
+  color: #004d40;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004d40;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Page3</h2>
+
+<!-- ปุ่มลิงก์กลับไป mainpage และ page2 -->
+<p>
+  <button onclick="location.href='mainpage.html'">หน้าหลัก</button>
+  <button onclick="location.href='page2.html'">Page 2</button>
+</p>
+
+<h2>กิจวัตร</h2>
+
+<table>
+  <tr>
+    <th>วัน</th>
+    <th>เวลา</th>
+    <th>กิจกรรม</th>
+  </tr>
+  <tr>
+    <td>จันทร์</td>
+    <td>8:00-17:00</td>
+    <td>เรียนหนังสือ</td>
+  </tr>
+  <tr>
+    <td>อังคาร</td>
+    <td>8:00-17:00</td>
+    <td>เรียนหนังสือ</td>
+  </tr>
+  <tr>
+    <td>พุธ</td>
+    <td>8:00-21:00</td>
+    <td>เรียนหนังสือ,ออกกำลังกาย</td>
+  </tr>
+  <tr>
+    <td>พฤหัสบดี</td>
+    <td>8:00-22:00</td>
+    <td>เรียนหนังสือ,ออกกำลังกายยาวๆ</td>
+  </tr>
+  <tr>
+    <td>ศุกร์</td>
+    <td>8:00-18:00</td>
+    <td>เรียนหนังสือตอนเช้า,ไปเล่นบอลตอนเย็น</td>
+  </tr>
+  <tr>
+    <td>เสาร์</td>
+    <td>ทั้งวัน</td>
+    <td>เล่นเกม,ช่วยแม่ทำงานบ้าน,นอน</td>
+  </tr>
+</table>
+
+</body>
+</html>
